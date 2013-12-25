@@ -144,6 +144,11 @@
                 <property name="service-interfaces">${core.generated.dir}</property>
                 <property name="criteria">${common.generated.dir}</property>
                 <property name="value-objects">${common.generated.dir}</property>
+				<!-- author:      Ali Abdel-Aziz 
+                     description: adding the Java
+                     Since:       21/12/2013-->
+                <property name="mergeLocation">${conf.dir}/cartridge</property>
+                <!--<property name="mergeMappingsUri">file:${conf.dir}/mappings/SpringMergeMappings.xml</property>-->
             </properties>
         </namespace>
         <!-- See http://docs.andromda.org/andromda-cartridges/andromda-hibernate-cartridge/namespace.html -->
